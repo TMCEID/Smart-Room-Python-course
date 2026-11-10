@@ -1,17 +1,12 @@
 # Your room-sensor project — completed reference solution
 
-> **Git iteration:** start with [GIT_START_HERE.md](GIT_START_HERE.md).
-> This copy adds Git settings and student-facing guides; the Python code is
-> unchanged. No `.git` history or remote is bundled. For your own unfinished
-> project, use the separate Git-files add-on instead of replacing your code.
-
 This is the solved companion to **room_sensor_backbone_annotation_fix**. All tasks
 from the finite-data assignment and Extension 1 are implemented. The small folder
 layout, function names and data contract are retained, so you can compare one
 function at a time with your own work.
 
 This is still a folder of Python modules, **not an installable distribution**.
-There is no `pyproject.toml`, manifest, setup command, pre-initialised Git history, web server,
+There is no `pyproject.toml`, manifest, setup command, Git repository, web server,
 browser application, database, asynchronous collector or metaprogramming framework.
 You need only Python's standard library. No `pip install` command is needed.
 
