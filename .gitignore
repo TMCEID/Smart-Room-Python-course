@@ -1,0 +1,35 @@
+# Git reads these rules when deciding which UNTRACKED files to offer for staging.
+# This file belongs in Git. It does not erase files or protect existing history.
+# Read docs/git/01_files.md before extending these rules.
+
+# Python creates these caches; your teammates can regenerate them.
+__pycache__/
+*.py[cod]
+
+# A virtual environment belongs to your own computer, not to the shared project.
+.venv/
+venv/
+
+# Both supplied entry points write here. Keep source data, not generated results.
+/output/
+*.log
+
+# Optional personal configuration: explicitly pass it to run.py when needed.
+# The program does NOT automatically read local.json or merge it with example.json.
+/config/local.json
+/config/*.local.json
+
+# Reserved for private/large real measurements. Supplied data/*.csv/json/jsonl
+# remain TRACKABLE. These rules are not a security boundary or secret scanner.
+/data/private/
+.env
+.env.*
+
+# Local editor preferences and operating-system housekeeping are not course work.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Do NOT add broad rules such as *.csv, *.json, data/, config/, or checks/.
+# Your fixtures, example configuration, and tests are part of the project.

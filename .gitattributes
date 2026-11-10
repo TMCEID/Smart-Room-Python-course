@@ -1,0 +1,18 @@
+# Git attributes affect storage/checkout, not which files are included.
+# Detect other text files automatically and normalize their repository newlines.
+* text=auto
+
+# Use LF for this project's shared text files, including on Windows checkouts.
+# This avoids diffs caused only by different platform newline conventions.
+*.py    text eol=lf
+*.md    text eol=lf
+*.json  text eol=lf
+*.jsonl text eol=lf
+*.csv   text eol=lf
+*.txt   text eol=lf
+.gitignore     text eol=lf
+.gitattributes text eol=lf
+
+# These rules do not reformat your code or change its character encoding.
+# Start with them BEFORE the first commit. Existing repositories are discussed
+# in docs/git/01_files.md; do not normalize unrelated work in a mixed commit.
